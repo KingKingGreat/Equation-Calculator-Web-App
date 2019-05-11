@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Equation Calculator Web App</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+		<body>
+			<div>
+				<h1>Equation Calculator Web App</h1>
+				<h2>Calculate Equations</h2>
+				<hr>
+				<h2>How does it work?<h2>
+				<p>It will calulate your equation under seconds<br>Insert values on Parameters below then press Calculate</p>
+				<hr>
+				<h3 id="eText"></h3>
+				Value 1 <input type="number" id="val1" value="0"><br>
+				Operator <select id="operator">
+					<option value="plus">Plus</option>
+					<option value="min">Min</option>
+				</select><br>
+				Value 2 <input type="number" id="val2" value="0"><br>
+				Equal Value <input type="number" id="equalVal" value="0"><br>
+				Index <select id="index">
+					<option value="1">First</option>
+					<option value="2">Second</option>
+				</select><br>
+				Index Name <input type="text" id="indexName" value="a"><br>
+				<button id="calcButton" type="button">Calculate</button>
+				<h3 id="rText"></h3>
+				<hr>
+				<h2>Version 1.0.2019511.145701.LM</h2>
+			</div>
+			<script src="script.js"></script>
+		</body>
+</html>
