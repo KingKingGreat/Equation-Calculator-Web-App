@@ -4,11 +4,11 @@ var calcButton = document.getElementById("calcButton");
 // Declare calcEquation function
 function calcEquation() {
 	// Connect parameters
-	var val1 = parseInt(document.getElementById("val1").value);
-	var val2 = parseInt(document.getElementById("val2").value);
-	var equalVal = parseInt(document.getElementById("equalVal").value);
+	var val1 = parseFloat(document.getElementById("val1").value);
+	var val2 = parseFloat(document.getElementById("val2").value);
+	var equalVal = parseFloat(document.getElementById("equalVal").value);
 	var operator = document.getElementById("operator").value;
-	var index = parseInt(document.getElementById("index").value);
+	var index = parseFloat(document.getElementById("index").value);
 	var indexName = document.getElementById("indexName").value;
 
 	// Declare result
